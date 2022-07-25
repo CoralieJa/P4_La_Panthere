@@ -38,7 +38,7 @@ footer li{
     align-items: center;
 }
 .col-sm-12 h2{
-    width: 650px;
+    width: auto ;
     
     
 }
@@ -46,12 +46,11 @@ footer li{
     
 blockquote {
     color: #575757;
-    
     font-size: 20px;
     font-weight: 400;
     font-style: italic;
-    width: 550px;
-    padding: 0px;
+    width: auto;
+    /*padding: 0px;*/
     margin-bottom: 0;
     border-left: none;
 }
@@ -60,12 +59,9 @@ blockquote {
 }
 figcaption{
     color: #575757;
-    
     font-size: 20px;
     font-weight: 100;
-    
     width: 550px;
-
 }
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -450,6 +446,7 @@ figcaption{
         float: none;
         margin: 10px auto 0;
     }
+    
 }
 
 .nav > li > .dropdown a {
@@ -483,8 +480,11 @@ nav .caret {
     margin: 6px -5px 0 0!important;
     float: right;
 }
-
+#bloc-5-cta{
+    z-index: 1
+}
 .mg-md {
+    position:relative;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -785,7 +785,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #120810!important;
 }
 
 .portfolio-thumb {
@@ -824,7 +824,7 @@ h4 {
 }
 
 .tc-white {
-    color: #404040!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
