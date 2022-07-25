@@ -20,6 +20,11 @@ a:hover {
 
 footer a{
     color: #404040 !important;
+    font-size: 16px;
+    
+}
+footer li{
+    padding:11px 0px 11px 0px;
 }
 
 .grey{
@@ -721,7 +726,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
